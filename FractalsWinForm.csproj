@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="AllForms\FifthFractalInfo.cs" />
+    <Compile Update="AllForms\SixthFractal.cs" />
+    <Compile Update="AllForms\SixthFractalInfo.cs" />
+    <Compile Update="Form1 - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FourthFractal - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FourthFractalInfo - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AllForms\FourthFractalInfo.cs" />
+    <Compile Update="SecondFractal - Copy %282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SecondFractalInfo - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ThirdFractal - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ThirdFractalInfo - Copy %282%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AllForms\ThirdFractalInfo.cs" />
+    <Compile Update="AllForms\SecondFractalInfo.cs" />
+    <Compile Update="AllForms\FourthFractalInfo.cs" />
+    <Compile Update="AllForms\ThirdFractalInfo.cs" />
+    <Compile Update="AllForms\FirstFractal.cs" />
+  </ItemGroup>
+
+</Project>
